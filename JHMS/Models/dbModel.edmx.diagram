@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="26f28526120f4df88964191e358a1bd7" Name="Diagram1">
+        <EntityTypeShape EntityType="app_dbModel.Booking" Width="1.5" PointX="4.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="app_dbModel.Branch" Width="1.5" PointX="3.5" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="app_dbModel.Customer" Width="1.5" PointX="1.375" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="app_dbModel.Employee" Width="1.5" PointX="0.875" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="app_dbModel.Room" Width="1.5" PointX="5.75" PointY="3.375" IsExpanded="true" />
+        <AssociationConnector Association="app_dbModel.FK_BranchRoom" ManuallyRouted="false" />
+        <AssociationConnector Association="app_dbModel.FK_CustomerBooking" ManuallyRouted="false" />
+        <AssociationConnector Association="app_dbModel.FK_BranchEmployee" ManuallyRouted="false" />
+        <AssociationConnector Association="app_dbModel.FK_BranchRoo1m" ManuallyRouted="false" />
+        <AssociationConnector Association="app_dbModel.FK_EmployeeBranch" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
